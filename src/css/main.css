@@ -1,0 +1,41 @@
+body { 
+    background-color: #F5F5F5;
+}
+#TitleBio  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    padding-left: 5%;
+}
+#ParagraphBio  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#TitleAndParagraph1  {
+    margin-top: 3%;
+    border-style: groove;
+    border-bottom-width: 30%;
+    margin-bottom: 3%;
+}
+#TitleHistory  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    padding-left: 5%;
+}
+#ParagraphHistory  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#TitleAndParagraph2  {
+    border-style: groove;
+    margin-bottom: 3%;
+}
+#ParagraphLinks  {
+    border-style: groove;
+    margin-bottom: 3%;
+}
