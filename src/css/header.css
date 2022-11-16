@@ -1,22 +1,21 @@
-header {
-    position:relative;
-}
 
 header .fondo-header {
     background: color #f5f5f5;
     height: 250px;
+    border-style: groove;
 }
 
 header .chanel-logo {
     width: 120px;
     height: 108px;
-    position: left;
+    padding-left: 0%;
 }
 
 header .nombre-chanel{
+    aling:right;
     width: 357px;
     height: 108px;
-    position: right;
+    padding-right: 0%;
 
 }
 
