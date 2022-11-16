@@ -1,0 +1,53 @@
+header {
+    position:relative;
+}
+
+header .fondo-header {
+    background: color #f5f5f5;
+    height: 250px;
+}
+
+header .chanel-logo {
+    width: 120px;
+    height: 108px;
+    position: left;
+}
+
+header .nombre-chanel{
+    width: 357px;
+    height: 108px;
+    position: right;
+
+}
+
+header ol {
+    display:flex;
+    gap: 15px;
+    padding:0;
+    list-style-type: none;
+    margin-left: 370px;
+    margin-top: 40px;
+}
+
+
+header li, header li a {
+    width:167px;
+    height:39px;
+    line-height:39px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    display: block;
+    transition: all 0.4s;
+}
+
+header li a:hover {
+    color: black;
+    letter-spacing: 3px;
+}
+
+header li a.activo {
+    color:black;
+}
