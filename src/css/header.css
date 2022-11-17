@@ -3,7 +3,7 @@ header .fondo-header {
     background-color: white;
     max-width: 100%;
     height: 10%;
-    border-style: groove;
+
     border-style: ridge;
     margin-bottom: 3%;
 }
