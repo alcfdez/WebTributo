@@ -17,3 +17,4 @@ REQUERIMIENTOS TÉCNICOS
 HERRAMIENTAS: Figma, Jira, visualCode
 
 PROTOTIPO:
+https://github.com/JehiselRuth/WebTributo/blob/carrusel/assets/img/PROTOTIPO.PNG
