@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Web Tribute</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<header>
+    <div class="fondo-header">
+        <div id="LogoyNombre">
+       <section> <img src="./assets/img/LOGO CHANEL.jpg" class="chanel-logo" alt="logo de channel"></section>
+            <section> <img src="./assets/img/CHANEL.jpg" class="nombre-chanel" alt="chanel"> </section>
+         </div>   
+        <nav>
+            <ol>
+                <li><a href="index.html" class="activo">HOME</a></li>
+                <li><a href="#TitleBio" >BIOGRAFIA</a></li>
+                <li><a href="#TitleHistory" >HISTORIA</a></li>
+                <li><a href="#LinksTitle" >ENLACES</a></li>
+            </ol>
+        </nav>
+            </div>
+</header>
+<body>    
+    <main>
+        <div>
+            <img src="/assets/img/BannerCoco.png" alt="Imagen Coco Chanel" class="responsive">
+        </div>
+
+      <br></br>
+      
+          <div class="slideshow-container">
+    
+          <div class="mySlides fade">
+            <img src="./assets/img/BOLSO CHANEL.jpg" style="width: 100%"></img>
+            <div class="text">Bolsos chanel 2.55</div>
+          </div>
+           
+          <div class="mySlides fade">
+            <img src="./assets/img/CHANEL N5.jpg" style="width:100%"></img>
+            <div class="text">Perfume chanel N5</div>
+          </div>  
+    
+          <div class="mySlides fade">
+            <img src="./assets/img/COCO CHANEL 2.jpg" style="width:100%"></img>
+            <div class="text">Foto Coco Chanel</div>
+          </div>
+    
+          <div class="mySlides fade">  
+            <img src="./assets/img/galeria chanel.jpg" style="width:100%"></img>
+            <div class="text">Galería Museo Trajes Chanel</div>
+          </div>
+    
+          <div class="mySlides">
+            <img src="./assets/img/pelicula.jpg" style="width:100%"></img>
+            <div class="text">Película Coco Chanel</div>
+          </div> 
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+      </div>
+    
+    <br></br>
+    
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <p>
+        <div class="responsive2">
+            <div id="TitleAndParagraph1">
+                <div id="TitleBio"> <a name="TitleBio" id="TitleBio"></a>
+                    <h2> Biografía </h2>
+                </div>
+                <div id="ParagraphBio">
+                    <p>(Gabrielle Bonheur; Saumur, Francia, 1883 - París, 1971) Modista francesa que revolucionó la moda y el mundo de la alta costura de los años de entreguerras. Rompiendo con la acartonada elegancia de la Belle Époque, su línea informal y cómoda liberó el cuerpo femenino de corsés y de aparatosos adornos y expresó las aspiraciones de libertad e igualdad de la mujer del siglo XX.</p>     
+                </div>
+            </div>
+            <div id="TitleAndParagraph2">
+                <div id="TitleHistory"> <a name="TitleHistory" id="TitleHistory"></a>
+                    <h2>Historia</h2> 
+                </div>
+                <div id="ParagraphHistory">
+                    <p>Convertida desde los años 20 en la gran dama de la moda francesa, su influencia se extendería después en prácticamente todos los ámbitos, desde el corte de pelo hasta los perfumes, pasando por los zapatos y complementos. En cierto sentido, ella misma fue la principal modelo de su firma: delgada, con poco pecho y el pelo corto, con ropa ancha y cómoda, Chanel se convirtió en el prototipo de garçonne, en un símbolo de la mujer moderna, activa y liberada. Y la imagen de la misma Chanel fue admirada e imitada por millones de mujeres.</p>     
+                </div>
+            </div>
+            <div id="TitleAndParagraph3">
+                <div id="LinksTitle"> <a name="LinksTitle" id="LinksTitle"></a>
+                    <h2>Enlaces</h2>
+                </div>
+                <div id="LinksChanel">
+                    <nav>
+                        <ol>
+                            <p><a href="https://www.chanel.com/es/about-chanel/la-fundadora/" target="_blank" > Página oficial:Conoce más sobre Coco Chanel</a></p>
+                            <p><a href="https://es.wikipedia.org/wiki/Coco_Chanel" target="_blank" >Coco Chanel en Wikipedia</a></p>
+                           <p><a href="https://www.biografiasyvidas.com/biografia/c/chanel.htm" target="_blank" >Más biografías en: Biografías y Vida</a></p>
+                        </ol>
+                    </nav>
+                </div>    
+            </div>
+        </div>
+    </p>
+    </main>
+    <footer>
+        <div>
+            <img src="/assets/img/FooterCoco.png" alt="Footer" class="responsive4">
+        </div>
+</footer>
+
+<script src="./js/app.js"></script>
+
+</body>
+</html>
