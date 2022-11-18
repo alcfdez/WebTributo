@@ -12,16 +12,50 @@
 
 </header>
 <body>    
-    <div class="carrusel">
-        <button id="retroceder">Retroceder</button>
-        <div id="imagen">
+    <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="./assets/img/BOLSO CHANEL.jpg" style="width:100%">
+        <div class="text">Bolsos chanel 2.55</div>
         </div>
-       <button id="avanzar">Avanzar</button>
-    </div>
-    <div class="controles">
-        <button id="play">Play</button>
-        <button id="stop" disabled>Stop</button>
-    </div>
- <script src="./app.js"></script>   
+
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="./assets/img/CHANEL N5.jpg" style="width:100%">
+        <div class="text">Perfume chanel N5</div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="./assets/img/COCO CHANEL 2.jpg" style="width:100%">
+        <div class="text">Foto Coco Chanel</div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="./assets/img/galeria chanel.jpg" style="width:100%">
+        <div class="text">Galería Museo Trajes Chanel</div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="./assets/img/pelicula.jpg" style="width:100%">
+        <div class="text">Película Coco Chanel</div>
+        </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
 </body>
 </html>
