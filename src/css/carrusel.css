@@ -1,0 +1,17 @@
+.carrusel {
+    width: 10%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center ;
+
+}
+#imagen {
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+#imagen img {
+    width: 100px;
+    height: 100px;
+}
