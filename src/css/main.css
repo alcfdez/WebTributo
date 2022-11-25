@@ -55,11 +55,13 @@ body {
     border-style: ridge;
 }
 
-.responsive {
+
+  .responsive2 {
     height: auto;
     max-width: 100%;
+    text-align-last: calc(600px)
   }
-  .responsive2 {
+  .responsive {
     height: auto;
     max-width: 100%;
     text-align-last: calc(600px)
