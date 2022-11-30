@@ -19,4 +19,4 @@ HERRAMIENTAS: Figma, Jira, visualCode
 PROTOTIPO:
 https://github.com/JehiselRuth/WebTributo/blob/carrusel/assets/img/PROTOTIPO.PNG
 
-https://raw.githubusercontent.com/alcfdez/WebTributo/blob/main/README.md
+https://github.com/alcfdez/WebTributo/tree/main/assets/img/PROTOTIPO.PNG
